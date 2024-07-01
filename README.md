@@ -7,16 +7,16 @@ Just don't run it!
 ## Pull from docker
 
 ```bash
-docker pull pointlesscode/passwords:latest
-docker run --rm pointlesscode/passwords
+docker pull pointlesscode/do-not-run:latest
+docker run --rm pointlesscode/do-not-run
 ```
 
 ## Build it yourself
 - clone the project and cd to folder
 - build and run the image
 ```bash
-docker build -t passwords .
-docker run --rm passwords
+docker build -t do-not-run .
+docker run --rm do-not-run
 ```
 
 ## Social
